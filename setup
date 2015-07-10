@@ -1,8 +1,8 @@
 #!/bin/bash
 
 rm -f ~/.bash*
-ln -s .bash_profile ~/
-ln -s .bashrc  ~/
+ln -s $PWD/.bash_profile ~/
+ln -s $PWD/.bashrc  ~/
 
 rm -f ~/.zshrc
-ln -s .zshrc ~/
+ln -s $PWD/.zshrc ~/
