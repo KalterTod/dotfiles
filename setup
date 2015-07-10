@@ -1,0 +1,8 @@
+#!/bin/bash
+
+rm -f ~/.bash*
+ln -s .bash_profile ~/
+ln -s .bashrc  ~/
+
+rm -f ~/.zshrc
+ln -s .zshrc ~/
